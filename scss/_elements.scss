@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.test {
+  background-color: blue;
+  border: solid 2px rgb(180, 21, 21);
+}
+
+.box {
+  color: black;
+  background-color: black;
+}
+.liten {
+  width: 50px;
+  height: 50px;
+}

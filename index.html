@@ -7,7 +7,33 @@
     <link rel="stylesheet" href="/css/style.css" />
     <title>Document</title>
   </head>
-  <body>
-    <h1>heiw</h1>
+  <body class="d-flex flex-column min-vh-100">
+    <header class=".container">
+      <nav class="navbar navbar-expand-lg">
+        <h1 class="container-fluid d-flex justify-content-center">
+          <a class="navbar-brand" href="#">Hopla</a>
+        </h1>
+      </nav>
+    </header>
+    <main
+      class="container h-100 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="container d-flex mx-auto align-self-center justify-content-center"
+      >
+        <form class="w-25">
+          <label for="username" class="form-label">Username</label>
+          <input type="text" id="username" class="form-control" />
+          <label for="password" class="form-label">Password</label>
+          <input type="password" id="password" class="form-control" />
+          <button>Login</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="d-flex justify-content-around align-items-center py-3">
+        <h2 class="">Hopla</h2>
+      </div>
+    </footer>
   </body>
 </html>

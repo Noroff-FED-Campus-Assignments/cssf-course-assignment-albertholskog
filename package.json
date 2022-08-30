@@ -21,6 +21,7 @@
   "homepage": "https://github.com/Noroff-FED-Campus-Assignments/cssf-course-assignment-albertholskog#readme",
   "dependencies": {
     "bootstrap": "^5.2.0",
+    "bootstrap-icons": "^1.9.1",
     "live-server": "^1.1.0",
     "sass": "^1.54.5"
   }
