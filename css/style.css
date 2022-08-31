@@ -3,10 +3,6 @@ h1, .h1 {
   font-size: 3rem;
 }
 
-footer {
-  background-color: red;
-}
-
 html,
 body {
   height: 100%;
@@ -34,10 +30,12 @@ body {
 }
 
 .post {
-  max-width: 100%;
-  height: 200px;
-  width: 100%;
   object-fit: cover;
+}
+
+.img__container {
+  width: 200px;
+  height: 50px;
 }
 
 /*!
