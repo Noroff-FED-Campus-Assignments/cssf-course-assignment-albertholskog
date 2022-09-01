@@ -1,8 +1,4 @@
 @charset "UTF-8";
-h1, .h1 {
-  font-size: 3rem;
-}
-
 html,
 body {
   height: 100%;
@@ -12,21 +8,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-.test {
-  background-color: blue;
-  border: solid 2px rgb(180, 21, 21);
-}
-
-.box {
-  color: black;
-  background-color: black;
-}
-
-.liten {
-  width: 50px;
-  height: 50px;
+  font-family: "Roboto", sans-serif;
 }
 
 .post {
@@ -36,6 +18,22 @@ body {
 .img__container {
   width: 200px;
   height: 50px;
+}
+
+.navbar {
+  background-color: #2d452f;
+}
+.navbar-brand {
+  color: #cfe2ce !important;
+  font-size: 2rem !important;
+}
+
+footer {
+  background-color: #2d452f;
+}
+footer h2, footer .h2 {
+  color: #cfe2ce;
+  font-size: 2rem;
 }
 
 /*!

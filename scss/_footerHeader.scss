@@ -1,0 +1,15 @@
+.navbar {
+  background-color: getColour(primary);
+  &-brand {
+    color: getColour(secondary) !important;
+    font-size: 2rem !important;
+  }
+}
+
+footer {
+  background-color: getColour(primary);
+  h2 {
+    color: getColour(secondary);
+    font-size: 2rem;
+  }
+}

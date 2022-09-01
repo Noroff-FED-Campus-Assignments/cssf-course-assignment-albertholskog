@@ -4,33 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=h, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Document</title>
   </head>
   <body class="d-flex flex-column min-vh-100">
     <header class=".container">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg pb-3">
         <h1 class="container-fluid d-flex justify-content-center">
-          <a class="navbar-brand" href="#">Hopla</a>
+          <a class="navbar-brand mt-3" href="#">Hopla</a>
         </h1>
       </nav>
     </header>
     <main
       class="container h-100 d-flex align-items-center justify-content-center"
     >
-      <div
-        class="container d-flex mx-auto align-self-center justify-content-center"
-      >
-        <form class="w-25">
-          <label for="username" class="form-label">Username</label>
-          <input type="text" id="username" class="form-control" />
-          <label for="password" class="form-label">Password</label>
-          <input type="password" id="password" class="form-control" />
-          <button>Login</button>
-        </form>
-      </div>
+      <form>
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+        <div class="form-floating">
+          <input
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input
+            type="password"
+            class="form-control"
+            id="floatingPassword"
+            placeholder="Password"
+          />
+          <label for="floatingPassword">Password</label>
+        </div>
+
+        <div class="checkbox mb-3">
+          <label>
+            <input type="checkbox" value="remember-me" /> Remember me
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">
+          Sign in
+        </button>
+      </form>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="d-flex justify-content-around align-items-center py-3">
         <h2 class="">Hopla</h2>
       </div>
