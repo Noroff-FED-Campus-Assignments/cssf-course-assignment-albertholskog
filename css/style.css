@@ -2,6 +2,7 @@
 html,
 body {
   height: 100%;
+  background-color: #f3f1f1 !important;
 }
 
 * {
@@ -17,13 +18,10 @@ body {
   border: none !important;
 }
 
-.post {
+img {
+  min-width: 150px;
+  max-width: 300px;
   object-fit: cover;
-}
-
-.img__container {
-  width: 200px;
-  height: 50px;
 }
 
 .navbar {
@@ -32,6 +30,24 @@ body {
 .navbar-brand {
   color: #cfe2ce !important;
   font-size: 2rem !important;
+}
+.navbar-toggler-icon {
+  border: 2px solid #cfe2ce;
+  border-radius: 10px;
+}
+.navbar a {
+  color: #cfe2ce;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.navbar .btn {
+  color: #cfe2ce;
+  border-color: #cfe2ce;
+}
+
+.active-border {
+  border: 1px solid #cfe2ce;
+  border-radius: 10px;
 }
 
 footer {
