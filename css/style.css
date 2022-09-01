@@ -11,6 +11,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.btn-primary {
+  background-color: #2d452f !important;
+  color: #cfe2ce !important;
+  border: none !important;
+}
+
 .post {
   object-fit: cover;
 }
@@ -21,7 +27,7 @@ body {
 }
 
 .navbar {
-  background-color: #2d452f;
+  background-color: #2d452f !important;
 }
 .navbar-brand {
   color: #cfe2ce !important;

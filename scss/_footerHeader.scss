@@ -1,5 +1,5 @@
 .navbar {
-  background-color: getColour(primary);
+  background-color: getColour(primary) !important;
   &-brand {
     color: getColour(secondary) !important;
     font-size: 2rem !important;
